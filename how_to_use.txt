@@ -1,0 +1,28 @@
+HOW TO USE
+
+1. You are expected to input the number of activities you would be considering
+2. It is advisable to make the activity names in lowercase characters
+
+3. The program accepts comma seperated input e.g (a,b,c).
+4. From the above illustration;
+	a represents the activity.
+	b represents the predecessor.
+	c represents the duration of the activity.
+5. Activities that have no predecessor should have their predecessor's represented by "n".
+6. Usually, the first activity has not predecessor, so its predecessor should be represented by "n" e.g (a,n,3)
+	where a represents the activity name
+	where n represents the fact that there is no predecessor
+	where 3 represents the duration of the activity
+7. The program analyses the data, and shows the following details
+	a. Activity names
+	b. Earliest start of each activity
+	c. Earliest finish of each activity
+	d. Latetst start of each activity
+	e. Latest finish of each activity
+	f. Total float of each activity
+	g. Free float of each activity
+	i. A status id showing whether the activity falls under "CRITICAL" or "NON-CRITICAL"
+	h. Shows the Critical path of the activities
+	g. Shows the duration of the critical path 
+	i. Finally, Plots a gantt chart automatically showing an illustration of the critical, non-critical activities and critical path
+8. From the graph, the critica path can be identified by its unique color.
