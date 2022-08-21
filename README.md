@@ -9,7 +9,7 @@
 <code>3.  Plotly (python module used for the graphs)</code>
 <code>4   Tabulate (python module used to represent the analysis in tabular format)</code>
 </pre>
-<h3>Running the tests</h3>
+<h3>Running the test</h3>
 <p> Command prompt interaction</p>
 
 <img src="https://imgur.com/download/Zb3soUS/" alt='image_1' > 
